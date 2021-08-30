@@ -1,9 +1,6 @@
 import mongoose, { Document, Schema } from "mongoose"
 
-const conn = mongoose.connect("mongodb://localhost:27017/apiteste", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-})
+const conn = mongoose.connect("mongodb://localhost:27017/apiteste")
 
 type User = Document & {
     name: string
