@@ -54,9 +54,9 @@ yarn dev
 
     Paramêtros necessários no body:
 
-            name
-            username
-            password
+        name
+        username
+        password
 
 ### DELETE
 
